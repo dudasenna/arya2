@@ -15,6 +15,9 @@
 		22690245255D83E2008DF1A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22690243255D83E2008DF1A4 /* LaunchScreen.storyboard */; };
 		22690250255D83E2008DF1A4 /* AryaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2269024F255D83E2008DF1A4 /* AryaTests.swift */; };
 		2269025B255D83E2008DF1A4 /* AryaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2269025A255D83E2008DF1A4 /* AryaUITests.swift */; };
+		615BECD399CA9C45880D2AA5 /* Pods_Arya_AryaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1786AD31A8C0C033893EC534 /* Pods_Arya_AryaUITests.framework */; };
+		9CC95FCAD4DF99F4F7C95CA0 /* Pods_AryaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2CAFD257EFCED363B8DC7C4 /* Pods_AryaTests.framework */; };
+		C8E2463D977EB49021E4DE3E /* Pods_Arya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B895A93186B8C4482E90DC3D /* Pods_Arya.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1786AD31A8C0C033893EC534 /* Pods_Arya_AryaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Arya_AryaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22690235255D83E1008DF1A4 /* Arya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arya.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22690238255D83E1008DF1A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2269023A255D83E1008DF1A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +53,14 @@
 		22690256255D83E2008DF1A4 /* AryaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AryaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2269025A255D83E2008DF1A4 /* AryaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AryaUITests.swift; sourceTree = "<group>"; };
 		2269025C255D83E2008DF1A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23BB4A784E3B9A3D58BBA96F /* Pods-AryaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AryaTests.release.xcconfig"; path = "Target Support Files/Pods-AryaTests/Pods-AryaTests.release.xcconfig"; sourceTree = "<group>"; };
+		59A69524F0D7632650A788E5 /* Pods-Arya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arya.debug.xcconfig"; path = "Target Support Files/Pods-Arya/Pods-Arya.debug.xcconfig"; sourceTree = "<group>"; };
+		77874CA405CD2864A401D26E /* Pods-Arya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arya.release.xcconfig"; path = "Target Support Files/Pods-Arya/Pods-Arya.release.xcconfig"; sourceTree = "<group>"; };
+		B2CAFD257EFCED363B8DC7C4 /* Pods_AryaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AryaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B895A93186B8C4482E90DC3D /* Pods_Arya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Arya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0F2086EA7984AF69F2A0BA0 /* Pods-Arya-AryaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arya-AryaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Arya-AryaUITests/Pods-Arya-AryaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E27BD6CC08F0FF65BAB77AA0 /* Pods-Arya-AryaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arya-AryaUITests.release.xcconfig"; path = "Target Support Files/Pods-Arya-AryaUITests/Pods-Arya-AryaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F09A8EB8B9EA33127761EA18 /* Pods-AryaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AryaTests.debug.xcconfig"; path = "Target Support Files/Pods-AryaTests/Pods-AryaTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8E2463D977EB49021E4DE3E /* Pods_Arya.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CC95FCAD4DF99F4F7C95CA0 /* Pods_AryaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				615BECD399CA9C45880D2AA5 /* Pods_Arya_AryaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08D707E34E3A17E5157374CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B895A93186B8C4482E90DC3D /* Pods_Arya.framework */,
+				1786AD31A8C0C033893EC534 /* Pods_Arya_AryaUITests.framework */,
+				B2CAFD257EFCED363B8DC7C4 /* Pods_AryaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2269022C255D83E1008DF1A4 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +108,8 @@
 				2269024E255D83E2008DF1A4 /* AryaTests */,
 				22690259255D83E2008DF1A4 /* AryaUITests */,
 				22690236255D83E1008DF1A4 /* Products */,
+				81967DC90A4CD53C78DB8FFD /* Pods */,
+				08D707E34E3A17E5157374CC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +155,20 @@
 			path = AryaUITests;
 			sourceTree = "<group>";
 		};
+		81967DC90A4CD53C78DB8FFD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59A69524F0D7632650A788E5 /* Pods-Arya.debug.xcconfig */,
+				77874CA405CD2864A401D26E /* Pods-Arya.release.xcconfig */,
+				E0F2086EA7984AF69F2A0BA0 /* Pods-Arya-AryaUITests.debug.xcconfig */,
+				E27BD6CC08F0FF65BAB77AA0 /* Pods-Arya-AryaUITests.release.xcconfig */,
+				F09A8EB8B9EA33127761EA18 /* Pods-AryaTests.debug.xcconfig */,
+				23BB4A784E3B9A3D58BBA96F /* Pods-AryaTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +176,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2269025F255D83E2008DF1A4 /* Build configuration list for PBXNativeTarget "Arya" */;
 			buildPhases = (
+				6D9D179816DCC01CF35628C1 /* [CP] Check Pods Manifest.lock */,
 				22690231255D83E1008DF1A4 /* Sources */,
 				22690232255D83E1008DF1A4 /* Frameworks */,
 				22690233255D83E1008DF1A4 /* Resources */,
@@ -152,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22690262255D83E2008DF1A4 /* Build configuration list for PBXNativeTarget "AryaTests" */;
 			buildPhases = (
+				136C2481A6CD3CE9152D244C /* [CP] Check Pods Manifest.lock */,
 				22690247255D83E2008DF1A4 /* Sources */,
 				22690248255D83E2008DF1A4 /* Frameworks */,
 				22690249255D83E2008DF1A4 /* Resources */,
@@ -170,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22690265255D83E2008DF1A4 /* Build configuration list for PBXNativeTarget "AryaUITests" */;
 			buildPhases = (
+				A5E786F49D55C2CC02FF6F5E /* [CP] Check Pods Manifest.lock */,
 				22690252255D83E2008DF1A4 /* Sources */,
 				22690253255D83E2008DF1A4 /* Frameworks */,
 				22690254255D83E2008DF1A4 /* Resources */,
@@ -252,6 +296,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		136C2481A6CD3CE9152D244C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AryaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D9D179816DCC01CF35628C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Arya-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5E786F49D55C2CC02FF6F5E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Arya-AryaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		22690231255D83E1008DF1A4 /* Sources */ = {
@@ -433,6 +546,7 @@
 		};
 		22690260255D83E2008DF1A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59A69524F0D7632650A788E5 /* Pods-Arya.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +566,7 @@
 		};
 		22690261255D83E2008DF1A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77874CA405CD2864A401D26E /* Pods-Arya.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +586,7 @@
 		};
 		22690263255D83E2008DF1A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F09A8EB8B9EA33127761EA18 /* Pods-AryaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +609,7 @@
 		};
 		22690264255D83E2008DF1A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23BB4A784E3B9A3D58BBA96F /* Pods-AryaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +632,7 @@
 		};
 		22690266255D83E2008DF1A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0F2086EA7984AF69F2A0BA0 /* Pods-Arya-AryaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +653,7 @@
 		};
 		22690267255D83E2008DF1A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E27BD6CC08F0FF65BAB77AA0 /* Pods-Arya-AryaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
