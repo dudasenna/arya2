@@ -165,7 +165,6 @@
 				F09A8EB8B9EA33127761EA18 /* Pods-AryaTests.debug.xcconfig */,
 				23BB4A784E3B9A3D58BBA96F /* Pods-AryaTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -180,6 +179,7 @@
 				22690231255D83E1008DF1A4 /* Sources */,
 				22690232255D83E1008DF1A4 /* Frameworks */,
 				22690233255D83E1008DF1A4 /* Resources */,
+				22E73AE92562A2F20097F5A1 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -318,6 +318,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22E73AE92562A2F20097F5A1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n${PODS_ROOT}/SwiftLint/swiftlint\n";
 			showEnvVarsInLog = 0;
 		};
 		6D9D179816DCC01CF35628C1 /* [CP] Check Pods Manifest.lock */ = {
