@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0363F265DAAC5C40A87690CB /* Pods_AryaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64DECE3C79D1EDB3F6ACFFAC /* Pods_AryaTests.framework */; };
+		22553812256309BE0076BD39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22553811256309BE0076BD39 /* AppDelegate.swift */; };
+		22553814256309BE0076BD39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22553813256309BE0076BD39 /* SceneDelegate.swift */; };
+		22553816256309BE0076BD39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22553815256309BE0076BD39 /* ContentView.swift */; };
+		22553818256309C00076BD39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22553817256309C00076BD39 /* Assets.xcassets */; };
+		2255381B256309C00076BD39 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2255381A256309C00076BD39 /* Preview Assets.xcassets */; };
+		2255381E256309C00076BD39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2255381C256309C00076BD39 /* LaunchScreen.storyboard */; };
+		22553829256309C00076BD39 /* AryaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22553828256309C00076BD39 /* AryaTests.swift */; };
+		22553834256309C00076BD39 /* AryaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22553833256309C00076BD39 /* AryaUITests.swift */; };
+		3508BD699C8F981DA26DA564 /* Pods_Arya_AryaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 824D98EFE119F6DFCA797B49 /* Pods_Arya_AryaUITests.framework */; };
+		907B34F56F32B53889FC4BB6 /* Pods_Arya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 961E4B1ED56F9BAB1A11FA7C /* Pods_Arya.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22553825256309C00076BD39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22553806256309BE0076BD39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2255380D256309BE0076BD39;
+			remoteInfo = Arya;
+		};
+		22553830256309C00076BD39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22553806256309BE0076BD39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2255380D256309BE0076BD39;
+			remoteInfo = Arya;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0005ADA333DA6A730F33AC70 /* Pods-Arya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arya.release.xcconfig"; path = "Target Support Files/Pods-Arya/Pods-Arya.release.xcconfig"; sourceTree = "<group>"; };
+		2255380E256309BE0076BD39 /* Arya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arya.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22553811256309BE0076BD39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22553813256309BE0076BD39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		22553815256309BE0076BD39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		22553817256309C00076BD39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2255381A256309C00076BD39 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2255381D256309C00076BD39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2255381F256309C00076BD39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22553824256309C00076BD39 /* AryaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AryaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22553828256309C00076BD39 /* AryaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AryaTests.swift; sourceTree = "<group>"; };
+		2255382A256309C00076BD39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2255382F256309C00076BD39 /* AryaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AryaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22553833256309C00076BD39 /* AryaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AryaUITests.swift; sourceTree = "<group>"; };
+		22553835256309C00076BD39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EDD36A14491342D9D8E965E /* Pods-AryaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AryaTests.release.xcconfig"; path = "Target Support Files/Pods-AryaTests/Pods-AryaTests.release.xcconfig"; sourceTree = "<group>"; };
+		64DECE3C79D1EDB3F6ACFFAC /* Pods_AryaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AryaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		824D98EFE119F6DFCA797B49 /* Pods_Arya_AryaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Arya_AryaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		961E4B1ED56F9BAB1A11FA7C /* Pods_Arya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Arya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1E069BB065F00ABA4E842A9 /* Pods-Arya-AryaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arya-AryaUITests.release.xcconfig"; path = "Target Support Files/Pods-Arya-AryaUITests/Pods-Arya-AryaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EF3F7BE885F99D83E9701232 /* Pods-AryaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AryaTests.debug.xcconfig"; path = "Target Support Files/Pods-AryaTests/Pods-AryaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F1F15CC8CDD2A1D720834C43 /* Pods-Arya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arya.debug.xcconfig"; path = "Target Support Files/Pods-Arya/Pods-Arya.debug.xcconfig"; sourceTree = "<group>"; };
+		FF2A6318EFB7DB76AA0BE0C1 /* Pods-Arya-AryaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arya-AryaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Arya-AryaUITests/Pods-Arya-AryaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2255380B256309BE0076BD39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				907B34F56F32B53889FC4BB6 /* Pods_Arya.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22553821256309C00076BD39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0363F265DAAC5C40A87690CB /* Pods_AryaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2255382C256309C00076BD39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3508BD699C8F981DA26DA564 /* Pods_Arya_AryaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02C1F95B591281D281F6F7B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1F15CC8CDD2A1D720834C43 /* Pods-Arya.debug.xcconfig */,
+				0005ADA333DA6A730F33AC70 /* Pods-Arya.release.xcconfig */,
+				FF2A6318EFB7DB76AA0BE0C1 /* Pods-Arya-AryaUITests.debug.xcconfig */,
+				E1E069BB065F00ABA4E842A9 /* Pods-Arya-AryaUITests.release.xcconfig */,
+				EF3F7BE885F99D83E9701232 /* Pods-AryaTests.debug.xcconfig */,
+				2EDD36A14491342D9D8E965E /* Pods-AryaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		22553805256309BE0076BD39 = {
+			isa = PBXGroup;
+			children = (
+				22553810256309BE0076BD39 /* Arya */,
+				22553827256309C00076BD39 /* AryaTests */,
+				22553832256309C00076BD39 /* AryaUITests */,
+				2255380F256309BE0076BD39 /* Products */,
+				02C1F95B591281D281F6F7B4 /* Pods */,
+				D2523DE83257AFDB60EC66A9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2255380F256309BE0076BD39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2255380E256309BE0076BD39 /* Arya.app */,
+				22553824256309C00076BD39 /* AryaTests.xctest */,
+				2255382F256309C00076BD39 /* AryaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22553810256309BE0076BD39 /* Arya */ = {
+			isa = PBXGroup;
+			children = (
+				22553811256309BE0076BD39 /* AppDelegate.swift */,
+				22553813256309BE0076BD39 /* SceneDelegate.swift */,
+				22553815256309BE0076BD39 /* ContentView.swift */,
+				22553817256309C00076BD39 /* Assets.xcassets */,
+				2255381C256309C00076BD39 /* LaunchScreen.storyboard */,
+				2255381F256309C00076BD39 /* Info.plist */,
+				22553819256309C00076BD39 /* Preview Content */,
+			);
+			path = Arya;
+			sourceTree = "<group>";
+		};
+		22553819256309C00076BD39 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2255381A256309C00076BD39 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		22553827256309C00076BD39 /* AryaTests */ = {
+			isa = PBXGroup;
+			children = (
+				22553828256309C00076BD39 /* AryaTests.swift */,
+				2255382A256309C00076BD39 /* Info.plist */,
+			);
+			path = AryaTests;
+			sourceTree = "<group>";
+		};
+		22553832256309C00076BD39 /* AryaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22553833256309C00076BD39 /* AryaUITests.swift */,
+				22553835256309C00076BD39 /* Info.plist */,
+			);
+			path = AryaUITests;
+			sourceTree = "<group>";
+		};
+		D2523DE83257AFDB60EC66A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				961E4B1ED56F9BAB1A11FA7C /* Pods_Arya.framework */,
+				824D98EFE119F6DFCA797B49 /* Pods_Arya_AryaUITests.framework */,
+				64DECE3C79D1EDB3F6ACFFAC /* Pods_AryaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2255380D256309BE0076BD39 /* Arya */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22553838256309C00076BD39 /* Build configuration list for PBXNativeTarget "Arya" */;
+			buildPhases = (
+				32372041916489E10A0EA132 /* [CP] Check Pods Manifest.lock */,
+				2255380A256309BE0076BD39 /* Sources */,
+				2255380B256309BE0076BD39 /* Frameworks */,
+				2255380C256309BE0076BD39 /* Resources */,
+				22D7BF5225630B00000A64DE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Arya;
+			productName = Arya;
+			productReference = 2255380E256309BE0076BD39 /* Arya.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22553823256309C00076BD39 /* AryaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2255383B256309C00076BD39 /* Build configuration list for PBXNativeTarget "AryaTests" */;
+			buildPhases = (
+				91007657EB44B6AE3216706E /* [CP] Check Pods Manifest.lock */,
+				22553820256309C00076BD39 /* Sources */,
+				22553821256309C00076BD39 /* Frameworks */,
+				22553822256309C00076BD39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22553826256309C00076BD39 /* PBXTargetDependency */,
+			);
+			name = AryaTests;
+			productName = AryaTests;
+			productReference = 22553824256309C00076BD39 /* AryaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2255382E256309C00076BD39 /* AryaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2255383E256309C00076BD39 /* Build configuration list for PBXNativeTarget "AryaUITests" */;
+			buildPhases = (
+				49B2BFCE59DE737A6B62E9C6 /* [CP] Check Pods Manifest.lock */,
+				2255382B256309C00076BD39 /* Sources */,
+				2255382C256309C00076BD39 /* Frameworks */,
+				2255382D256309C00076BD39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22553831256309C00076BD39 /* PBXTargetDependency */,
+			);
+			name = AryaUITests;
+			productName = AryaUITests;
+			productReference = 2255382F256309C00076BD39 /* AryaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22553806256309BE0076BD39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					2255380D256309BE0076BD39 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					22553823256309C00076BD39 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 2255380D256309BE0076BD39;
+					};
+					2255382E256309C00076BD39 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 2255380D256309BE0076BD39;
+					};
+				};
+			};
+			buildConfigurationList = 22553809256309BE0076BD39 /* Build configuration list for PBXProject "Arya" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22553805256309BE0076BD39;
+			productRefGroup = 2255380F256309BE0076BD39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2255380D256309BE0076BD39 /* Arya */,
+				22553823256309C00076BD39 /* AryaTests */,
+				2255382E256309C00076BD39 /* AryaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2255380C256309BE0076BD39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2255381E256309C00076BD39 /* LaunchScreen.storyboard in Resources */,
+				2255381B256309C00076BD39 /* Preview Assets.xcassets in Resources */,
+				22553818256309C00076BD39 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22553822256309C00076BD39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2255382D256309C00076BD39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22D7BF5225630B00000A64DE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n${PODS_ROOT}/SwiftLint/swiftlint\n";
+		};
+		32372041916489E10A0EA132 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Arya-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49B2BFCE59DE737A6B62E9C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Arya-AryaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91007657EB44B6AE3216706E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AryaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2255380A256309BE0076BD39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22553812256309BE0076BD39 /* AppDelegate.swift in Sources */,
+				22553814256309BE0076BD39 /* SceneDelegate.swift in Sources */,
+				22553816256309BE0076BD39 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22553820256309C00076BD39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22553829256309C00076BD39 /* AryaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2255382B256309C00076BD39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22553834256309C00076BD39 /* AryaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22553826256309C00076BD39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2255380D256309BE0076BD39 /* Arya */;
+			targetProxy = 22553825256309C00076BD39 /* PBXContainerItemProxy */;
+		};
+		22553831256309C00076BD39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2255380D256309BE0076BD39 /* Arya */;
+			targetProxy = 22553830256309C00076BD39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2255381C256309C00076BD39 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2255381D256309C00076BD39 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22553836256309C00076BD39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22553837256309C00076BD39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22553839256309C00076BD39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1F15CC8CDD2A1D720834C43 /* Pods-Arya.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Arya/Preview Content\"";
+				DEVELOPMENT_TEAM = RGBZBCSCUU;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Arya/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eduardasenna.Arya;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2255383A256309C00076BD39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0005ADA333DA6A730F33AC70 /* Pods-Arya.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Arya/Preview Content\"";
+				DEVELOPMENT_TEAM = RGBZBCSCUU;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Arya/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eduardasenna.Arya;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2255383C256309C00076BD39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF3F7BE885F99D83E9701232 /* Pods-AryaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RGBZBCSCUU;
+				INFOPLIST_FILE = AryaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eduardasenna.AryaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arya.app/Arya";
+			};
+			name = Debug;
+		};
+		2255383D256309C00076BD39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EDD36A14491342D9D8E965E /* Pods-AryaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RGBZBCSCUU;
+				INFOPLIST_FILE = AryaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eduardasenna.AryaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arya.app/Arya";
+			};
+			name = Release;
+		};
+		2255383F256309C00076BD39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF2A6318EFB7DB76AA0BE0C1 /* Pods-Arya-AryaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RGBZBCSCUU;
+				INFOPLIST_FILE = AryaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eduardasenna.AryaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Arya;
+			};
+			name = Debug;
+		};
+		22553840256309C00076BD39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1E069BB065F00ABA4E842A9 /* Pods-Arya-AryaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RGBZBCSCUU;
+				INFOPLIST_FILE = AryaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eduardasenna.AryaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Arya;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22553809256309BE0076BD39 /* Build configuration list for PBXProject "Arya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22553836256309C00076BD39 /* Debug */,
+				22553837256309C00076BD39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22553838256309C00076BD39 /* Build configuration list for PBXNativeTarget "Arya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22553839256309C00076BD39 /* Debug */,
+				2255383A256309C00076BD39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2255383B256309C00076BD39 /* Build configuration list for PBXNativeTarget "AryaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2255383C256309C00076BD39 /* Debug */,
+				2255383D256309C00076BD39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2255383E256309C00076BD39 /* Build configuration list for PBXNativeTarget "AryaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2255383F256309C00076BD39 /* Debug */,
+				22553840256309C00076BD39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22553806256309BE0076BD39 /* Project object */;
+}
