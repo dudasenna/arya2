@@ -9,8 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ScrollView(.vertical) {
+                ProfileHeaderView()
+                    .padding(.top, -15)
+                MyJourneysView()
+                    .padding(.top, 10)
+                    .padding(.leading, 95)
+                    .padding(.bottom, 30)
+                Divider()
+                FavoritesView()
+                    .padding(.top)
+        }
     }
 }
 

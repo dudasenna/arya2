@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		0363F265DAAC5C40A87690CB /* Pods_AryaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64DECE3C79D1EDB3F6ACFFAC /* Pods_AryaTests.framework */; };
+		0E47932E2566BB0D00CFAD70 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E47932D2566BB0D00CFAD70 /* ProfileHeaderView.swift */; };
+		0E4793362566BB3500CFAD70 /* MyJourneysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4793352566BB3500CFAD70 /* MyJourneysView.swift */; };
+		0E47933C2566BB6300CFAD70 /* OutlineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E47933B2566BB6300CFAD70 /* OutlineButton.swift */; };
+		0E4793442566BB8000CFAD70 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4793432566BB8000CFAD70 /* FavoritesView.swift */; };
 		22553812256309BE0076BD39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22553811256309BE0076BD39 /* AppDelegate.swift */; };
 		22553814256309BE0076BD39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22553813256309BE0076BD39 /* SceneDelegate.swift */; };
 		22553816256309BE0076BD39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22553815256309BE0076BD39 /* ContentView.swift */; };
@@ -39,6 +43,10 @@
 
 /* Begin PBXFileReference section */
 		0005ADA333DA6A730F33AC70 /* Pods-Arya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arya.release.xcconfig"; path = "Target Support Files/Pods-Arya/Pods-Arya.release.xcconfig"; sourceTree = "<group>"; };
+		0E47932D2566BB0D00CFAD70 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		0E4793352566BB3500CFAD70 /* MyJourneysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyJourneysView.swift; sourceTree = "<group>"; };
+		0E47933B2566BB6300CFAD70 /* OutlineButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineButton.swift; sourceTree = "<group>"; };
+		0E4793432566BB8000CFAD70 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 		2255380E256309BE0076BD39 /* Arya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arya.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22553811256309BE0076BD39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22553813256309BE0076BD39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +112,24 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		0E47932B2566BAD000CFAD70 /* Supporting Views */ = {
+			isa = PBXGroup;
+			children = (
+				0E47932D2566BB0D00CFAD70 /* ProfileHeaderView.swift */,
+				0E4793352566BB3500CFAD70 /* MyJourneysView.swift */,
+				0E4793432566BB8000CFAD70 /* FavoritesView.swift */,
+			);
+			path = "Supporting Views";
+			sourceTree = "<group>";
+		};
+		0E47932C2566BAE000CFAD70 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0E47933B2566BB6300CFAD70 /* OutlineButton.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		22553805256309BE0076BD39 = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +155,8 @@
 		22553810256309BE0076BD39 /* Arya */ = {
 			isa = PBXGroup;
 			children = (
+				0E47932C2566BAE000CFAD70 /* Models */,
+				0E47932B2566BAD000CFAD70 /* Supporting Views */,
 				22553811256309BE0076BD39 /* AppDelegate.swift */,
 				22553813256309BE0076BD39 /* SceneDelegate.swift */,
 				22553815256309BE0076BD39 /* ContentView.swift */,
@@ -398,7 +426,11 @@
 			files = (
 				22553812256309BE0076BD39 /* AppDelegate.swift in Sources */,
 				22553814256309BE0076BD39 /* SceneDelegate.swift in Sources */,
+				0E47933C2566BB6300CFAD70 /* OutlineButton.swift in Sources */,
+				0E4793362566BB3500CFAD70 /* MyJourneysView.swift in Sources */,
+				0E4793442566BB8000CFAD70 /* FavoritesView.swift in Sources */,
 				22553816256309BE0076BD39 /* ContentView.swift in Sources */,
+				0E47932E2566BB0D00CFAD70 /* ProfileHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
