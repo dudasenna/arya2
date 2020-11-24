@@ -12,9 +12,9 @@
 		0E4793362566BB3500CFAD70 /* MyJourneysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4793352566BB3500CFAD70 /* MyJourneysView.swift */; };
 		0E47933C2566BB6300CFAD70 /* OutlineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E47933B2566BB6300CFAD70 /* OutlineButton.swift */; };
 		0E4793442566BB8000CFAD70 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4793432566BB8000CFAD70 /* FavoritesView.swift */; };
+		0EE9B84A256D46D5009A512C /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE9B849256D46D5009A512C /* ProfileScreen.swift */; };
 		22553812256309BE0076BD39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22553811256309BE0076BD39 /* AppDelegate.swift */; };
 		22553814256309BE0076BD39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22553813256309BE0076BD39 /* SceneDelegate.swift */; };
-		22553816256309BE0076BD39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22553815256309BE0076BD39 /* ContentView.swift */; };
 		22553818256309C00076BD39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22553817256309C00076BD39 /* Assets.xcassets */; };
 		2255381B256309C00076BD39 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2255381A256309C00076BD39 /* Preview Assets.xcassets */; };
 		2255381E256309C00076BD39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2255381C256309C00076BD39 /* LaunchScreen.storyboard */; };
@@ -47,10 +47,10 @@
 		0E4793352566BB3500CFAD70 /* MyJourneysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyJourneysView.swift; sourceTree = "<group>"; };
 		0E47933B2566BB6300CFAD70 /* OutlineButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineButton.swift; sourceTree = "<group>"; };
 		0E4793432566BB8000CFAD70 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		0EE9B849256D46D5009A512C /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
 		2255380E256309BE0076BD39 /* Arya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arya.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22553811256309BE0076BD39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22553813256309BE0076BD39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		22553815256309BE0076BD39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		22553817256309C00076BD39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2255381A256309C00076BD39 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2255381D256309C00076BD39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -159,7 +159,7 @@
 				0E47932B2566BAD000CFAD70 /* Supporting Views */,
 				22553811256309BE0076BD39 /* AppDelegate.swift */,
 				22553813256309BE0076BD39 /* SceneDelegate.swift */,
-				22553815256309BE0076BD39 /* ContentView.swift */,
+				0EE9B849256D46D5009A512C /* ProfileScreen.swift */,
 				22553817256309C00076BD39 /* Assets.xcassets */,
 				2255381C256309C00076BD39 /* LaunchScreen.storyboard */,
 				2255381F256309C00076BD39 /* Info.plist */,
@@ -428,8 +428,8 @@
 				22553814256309BE0076BD39 /* SceneDelegate.swift in Sources */,
 				0E47933C2566BB6300CFAD70 /* OutlineButton.swift in Sources */,
 				0E4793362566BB3500CFAD70 /* MyJourneysView.swift in Sources */,
+				0EE9B84A256D46D5009A512C /* ProfileScreen.swift in Sources */,
 				0E4793442566BB8000CFAD70 /* FavoritesView.swift in Sources */,
-				22553816256309BE0076BD39 /* ContentView.swift in Sources */,
 				0E47932E2566BB0D00CFAD70 /* ProfileHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

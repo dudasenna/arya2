@@ -1,14 +1,15 @@
 //
-//  FavoritesView.swift
+//  FavoritesCategoriesView.swift
 //  Arya
 //
-//  Created by Ana Carolina Soares de Melo on 19/11/20.
+//  Created by Ana Carolina Soares de Melo on 23/11/20.
 //
 
 import SwiftUI
 
-struct FavoritesView: View {
+struct FavoritesCategoriesView: View {
     let categoriesTitle: [String] = ["Comunidades", "Mulheres", "Áreas de atuação", "Curiosidades"]
+    //    let categoriesIcons = []
     var body: some View {
         VStack(spacing: 20) {
             HStack {
@@ -27,15 +28,15 @@ struct FavoritesView: View {
                 ZStack {
                     RoundedRectangle(cornerRadius: 45, style: .continuous)
                         .fill(Color.purple)
-                        Text("\(categoriesTitle[0])")
+                    Text("\(categoriesTitle[0])")
                         .font(.title2)
                         .fontWeight(.bold)
                         .foregroundColor(.white)
-                }
+                }       
                 ZStack {
                     RoundedRectangle(cornerRadius: 45, style: .continuous)
                         .fill(Color.purple)
-                        Text("\(categoriesTitle[1])")
+                    Text("\(categoriesTitle[1])")
                         .font(.title2)
                         .fontWeight(.bold)
                         .foregroundColor(.white)
@@ -63,8 +64,8 @@ struct FavoritesView: View {
     }
 }
 
-struct FavoritesView_Previews: PreviewProvider {
+struct FavoritesCategoriesView_Previews: PreviewProvider {
     static var previews: some View {
-        FavoritesView()
+        FavoritesCategoriesView()
     }
 }

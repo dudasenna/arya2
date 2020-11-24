@@ -9,16 +9,19 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ScrollView(.vertical) {
-                ProfileHeaderView()
-                    .padding(.top, -15)
-                MyJourneysView()
-                    .padding(.top, 10)
-                    .padding(.leading, 95)
-                    .padding(.bottom, 30)
-                Divider()
-                FavoritesView()
-                    .padding(.top)
+        VStack {
+            GeometryReader { geometry in
+                ScrollView(.vertical) {
+                    VStack {
+                        ProfileHeaderView()
+                            .offset(x: -90, y: -10)
+                        MyJourneysView()
+                        FavoritesView()
+                            .frame(width: geometry.size.width, height: 400)
+                            .offset(x: -95)
+                    }
+                }
+            }
         }
     }
 }

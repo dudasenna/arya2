@@ -15,7 +15,7 @@ struct MyJourneysView: View {
                 Label(
                     title: { Text("Minhas Jornadas")
                         .font(.title3)
-                        .bold()
+                        .fontWeight(.heavy)
                         
                     },
                     icon: {}
@@ -37,30 +37,6 @@ struct MyJourneysView: View {
                 }
             }.padding(.bottom, 30)
             Divider()
-            // MARK: CONQUISTAS
-            HStack {
-                Label(
-                    title: { Text("Minhas Conquistas")
-                        .font(.title3)
-                        .bold()},
-                    icon: {}
-                )
-                .foregroundColor(.orange)
-                .padding(.leading)
-                Spacer()
-            }.padding(.top)
-            ScrollView(.horizontal,showsIndicators: false) {
-                HStack {
-                    ForEach(0..<10) {_ in
-                        Circle()
-                            .frame(width: 90, height: 90)
-                            .foregroundColor(.purple)
-                            .opacity(0.25)
-                            .padding(.leading, 10)
-                        
-                    }
-                }
-            }
         }
     }
 }

@@ -34,10 +34,11 @@ struct ProfileHeaderView: View {
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 100, height: 100, alignment: .center)
+                    .foregroundColor(.white)
                     .clipShape(Circle())
                     .clipped()
                 Label(
-                    title: { Text("UserName").font(.title).bold()
+                    title: { Text("UserName").font(.title).fontWeight(.heavy)
                     },
                     icon: {}
                 ).padding(.top, 15)
